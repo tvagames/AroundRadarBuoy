@@ -1,5 +1,13 @@
+--------------------
+-- 軌道オプション
+--------------------
 HEIGHT_OFFSET = 100 -- 目標の頭上何mを回るか
 AROUND_DISTANCE = 200 -- 周回半径
+
+--------------------
+-- 自爆用オプション
+--------------------
+DETONATE_BY_TIME = false -- 時間経過で自爆するかどうか
 REGULATOR_COUNT = 3 -- ミサイルのRegulatorの数
 FUEL_TANK = 5 -- ミサイルのFuel tankの数
 TPS = 50 -- Variable ThrusterのThrust per second
@@ -19,7 +27,7 @@ function AroundRardarBuoy(I, targetPosition)
     mc = I:GetLuaControlledMissileCount(transIndex)
     for mi = 0, mc - 1, 1 do
       m = I:GetLuaControlledMissileInfo(transIndex,mi)
-      if m.TimeSinceLaunch > lifeTime then
+      if DETONATE_BY_TIME and m.TimeSinceLaunch > lifeTime then
         I:LogToHud("レーダーブイ寿命につき自爆。生存時間は" .. m.TimeSinceLaunch .. "秒でした")
         I:DetonateLuaControlledMissile(transIndex,mi)
       elseif DETONATE_IN_WATER and m.Position.y < 0 then
