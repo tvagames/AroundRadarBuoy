@@ -5,7 +5,7 @@ From The Depthsにおける周回レーダーブイ用スクリプト
 レーダーブイミサイルを制御し、敵の周りをぐるぐる周らせる。
 
 ## できないこと
-他のLUA制御ミサイルとの同居は、このままではできない。
+他のLUA制御ミサイルとの同居は、このままではできません。
 
 ## 必要なもの
 - LUA Box
@@ -38,7 +38,7 @@ LUA Box をQキーで開いて、[ソースコード（AroundRadarBuoy.lua）](h
 
 ミサイルを設定する。
 
-Variable ThrusterのTruster per secondは低い方が長持ちする。
+Variable ThrusterのTruster per secondは低い方が長持ちします。
 ![ミサイル設定](https://github.com/tvagames/AroundRadarBuoy/blob/images/20170705150902_1.jpg?raw=true "ミサイル設定")
 
 軌道はこんな感じ。
@@ -53,7 +53,7 @@ DETONATE_IN_WATER = false -- 水没したら自爆するかどうか
 ```AroundRadarBuoy.lua
 DETONATE_IN_WATER = true -- 水没したら自爆するかどうか
 ```
-にすると、ミサイルが燃料切れ＆水没したのに次弾が発射されない問題を気にしなくてよくなる。
+にすると、ミサイルが燃料切れ＆水没したのに次弾が発射されない問題を気にしなくてよくなります。
 
 ### 潜水艦で使いたい
 Fuel tank と Regulator の数や、Variable Thruster の Truster per second の値のバランスが悪いと、燃料切れ＆水没したのに次弾が発射されない場合があります。
