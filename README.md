@@ -29,7 +29,8 @@ From The Depthsにおける周回レーダーブイ用スクリプト
 ## 使い方
 必要なものを設置する。
 
-![設置](https://github.com/tvagames/AroundRadarBuoy/blob/images/20170705151558_1.jpg?raw=true "設置")
+デコイとしてではなく索敵として使う場合、Missile Radar Buoy HolderはMainframeに、有線または無線で接続してください。
+![設置](https://github.com/tvagames/AroundRadarBuoy/blob/images/20170705171414_1.jpg?raw=true "設置")
 
 LUA Box をQキーで開いて、[ソースコード（AroundRadarBuoy.lua）](https://github.com/tvagames/AroundRadarBuoy/blob/master/AroundRadarBuoy.lua)で上書きし、F8キーで適用する。
 ![貼り付け](https://github.com/tvagames/AroundRadarBuoy/blob/images/20170705152209_1.jpg?raw=true "貼り付け")
@@ -39,4 +40,5 @@ LUA Box をQキーで開いて、[ソースコード（AroundRadarBuoy.lua）](h
 Variable ThrusterのTruster per secondは低い方が長持ちする。
 ![ミサイル設定](https://github.com/tvagames/AroundRadarBuoy/blob/images/20170705150902_1.jpg?raw=true "ミサイル設定")
 
-
+軌道はこんな感じ。
+![軌道](https://github.com/tvagames/AroundRadarBuoy/blob/images/20170705171432_1.jpg?raw=true "軌道")
