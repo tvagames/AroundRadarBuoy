@@ -10,6 +10,7 @@ From The Depthsにおける周回レーダーブイ用スクリプト
 ## 必要なもの
 - LUA Box
 - AI Mainframe
+- General Purpose Processing Card 適量
 - 弾薬箱
 - Missile Radar Buoy Holder
 - Local Weapon Contoller
@@ -20,9 +21,9 @@ From The Depthsにおける周回レーダーブイ用スクリプト
   - LUA Transceiver
 - ミサイル設定
   - Fins x1
-  - Fuel tank xできるだけ
+  - Fuel tank できるだけ
   - Variable Thruster x1
-  - Regulator xできるだけ
+  - Regulator できるだけ
   - LUA Receiver x1
   - Radar Buoy x1
   
