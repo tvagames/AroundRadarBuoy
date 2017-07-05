@@ -43,3 +43,36 @@ Variable ThrusterのTruster per secondは低い方が長持ちする。
 
 軌道はこんな感じ。
 ![軌道](https://github.com/tvagames/AroundRadarBuoy/blob/images/20170705171432_1.jpg?raw=true "軌道")
+
+## FAQ
+### 水上艦や飛行機で使いたい
+```
+DETONATE_IN_WATER = false -- 水没したら自爆するかどうか
+```
+の箇所を
+```
+DETONATE_IN_WATER = true -- 水没したら自爆するかどうか
+```
+にすると、ミサイルが燃料切れ＆水没したのに次弾が発射されない問題を気にしなくてよくなる。
+
+### 潜水艦で使いたい
+Fuel tank と Regulator の数や、Variable Thruster の Truster per second の値のバランスが悪いと、燃料切れ＆水没したのに次弾が発射されない場合があります。
+
+その場合、以下のオプションを変更することで、時間が来たらミサイルが自爆するようにできます。
+
+```
+DETONATE_BY_TIME = false -- 時間経過で自爆するかどうか
+REGULATOR_COUNT = 3 -- ミサイルのRegulatorの数
+FUEL_TANK = 5 -- ミサイルのFuel tankの数
+TPS = 50 -- Variable ThrusterのThrust per second
+```
+
+最小構成の Fuel tank x1 と Regulator x1、 Truster per second 50 の場合
+```
+DETONATE_BY_TIME = true -- 時間経過で自爆するかどうか
+REGULATOR_COUNT = 1 -- ミサイルのRegulatorの数
+FUEL_TANK = 1 -- ミサイルのFuel tankの数
+TPS = 50 -- Variable ThrusterのThrust per second
+```
+
+以上
