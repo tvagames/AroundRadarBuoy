@@ -31,7 +31,7 @@ From The Depthsにおける周回レーダーブイ用スクリプト
 
 ![設置](https://github.com/tvagames/AroundRadarBuoy/blob/images/20170705151558_1.jpg?raw=true "設置")
 
-LUA Box をQキーで開いて、ソースコードを上書きし、F8キーで適用する。
+LUA Box をQキーで開いて、ソースコード（AroundRadarBuoy.lua）を上書きし、F8キーで適用する。
 ![貼り付け](https://github.com/tvagames/AroundRadarBuoy/blob/images/20170705152209_1.jpg?raw=true "貼り付け")
 
 ミサイルを設定する。
