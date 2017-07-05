@@ -18,8 +18,8 @@ From The Depthsにおける周回レーダーブイ用スクリプト
   - Controller x1
   - Launch Pad x1以上
   - Gantry x3以上
-  - LUA Transceiver x1以上 Launch Padと同数
-- ミサイル設定
+  - LUA Transceiver x1以上 Launch Padと同数
+ - ミサイル設定
   - Fins x1
   - Fuel tank できるだけ
   - Variable Thruster x1
