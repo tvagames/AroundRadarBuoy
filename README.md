@@ -16,7 +16,7 @@ From The Depthsにおける周回レーダーブイ用スクリプト
 - ミサイルランチャー一式
   - Controller x1
   - Launch Pad x1以上
-  - Gantry x3良い城
+  - Gantry x3以上
   - LUA Transceiver
 - ミサイル設定
   - Fins x1
