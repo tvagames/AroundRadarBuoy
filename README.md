@@ -12,6 +12,7 @@ From The Depthsにおける周回レーダーブイ用スクリプト
 - AI Mainframe
 - 弾薬箱
 - Missile Radar Buoy Holder
+- Local Weapon Contoller
 - ミサイルランチャー一式
   - Controller x1
   - Launch Pad x1以上
