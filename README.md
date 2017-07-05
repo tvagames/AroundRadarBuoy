@@ -35,6 +35,8 @@ LUA Box をQキーで開いて、[ソースコード（AroundRadarBuoy.lua）](h
 ![貼り付け](https://github.com/tvagames/AroundRadarBuoy/blob/images/20170705152209_1.jpg?raw=true "貼り付け")
 
 ミサイルを設定する。
+
+Variable ThrusterのTruster per secondは低い方が長持ちする。
 ![ミサイル設定](https://github.com/tvagames/AroundRadarBuoy/blob/images/20170705150902_1.jpg?raw=true "ミサイル設定")
 
 
